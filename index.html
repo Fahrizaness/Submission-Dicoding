@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Dicoding</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header & Navigation -->
+    <header>
+      <div class="jumbotron">
+        <h1>M.D.F.R</h1>
+        <button id="darkModeToggle" title="Toggle Dark Mode">🌙</button>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <div id="content">
+        <!-- About Section -->
+        <article id="about" class="card">
+          <h2>About Me</h2>
+          <h3>Hallo Semuanya...</h3>
+          <p>Perkenalkan Nama Saya Muhamad Dodi Fahri Rozani.</p>
+          <p>
+            Saya punya minat besar di dunia web development dan IT. Saya suka
+            ngulik teknologi, bikin website, dan belajar hal-hal baru seputar
+            dunia digital. Buat saya, jadi web developer itu seru karena selalu
+            ada tantangan dan hal baru yang bisa dipelajari.
+          </p>
+        </article>
+
+        <!-- Education Section -->
+        <article id="education" class="card">
+          <h2>My Education Journey</h2>
+
+          <div class="image-row">
+            <!-- SMK Negeri 1 Slawi -->
+            <div class="project-item">
+              <img src="img/smk.png" alt="smk.png" />
+              <div class="project-text">
+                <h3><strong>SMK Negeri 1 Slawi</strong></h3>
+                <p>
+                  Jurusan: Teknik Komputer dan Jaringan (TKJ)<br />
+                  Tahun: 2018 - 2021
+                </p>
+              </div>
+            </div>
+
+            <!-- STMIK Mardira Indonesia -->
+            <div class="project-item">
+              <img src="img/stmik.png" alt="stmik.png" />
+              <div class="project-text">
+                <h3><strong>STMIK Mardira Indonesia</strong></h3>
+                <p>
+                  Program Studi: Teknik Informatika (Sistem Informasi)<br />
+                  Tahun: 2022 - Sekarang
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Contact Section -->
+        <article id="contact" class="card">
+          <h2>Contact Me</h2>
+          <form class="contact-form">
+            <label for="name">Nama:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Masukkan nama Anda"
+              required
+            />
+
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Masukkan email Anda"
+              required
+            />
+
+            <label for="message">Pesan:</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Tulis pesan Anda"
+              required
+            ></textarea>
+
+            <button type="submit">Kirim</button>
+          </form>
+
+          <div class="social-links">
+            <p>Temukan saya di:</p>
+            <a
+              href="https://www.instagram.com/muhamaddfr"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Instagram"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/muhamad-dodi-fahri-rozani-59b757362"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="LinkedIn"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a
+              href="https://github.com/fahrizaness"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="GitHub"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </article>
+      </div>
+
+      <!-- Aside Profile -->
+      <aside>
+        <article class="card">
+          <h2>Profile</h2>
+          <figure>
+            <img src="img/profile.jpg" alt="profile.jpg" />
+            <figcaption>
+              <h3>Muhamad Dodi Fahri Rozani</h3>
+              <p>Web Developer</p>
+              <p>Kota Bandung</p>
+            </figcaption>
+          </figure>
+        </article>
+      </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Muhamad Dodi Fahri Rozani. All rights reserved.</p>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
