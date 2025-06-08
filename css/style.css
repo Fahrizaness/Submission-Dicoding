@@ -203,14 +203,24 @@ body.dark-mode .social-links a:hover {
   color: #ffffff;
 }
 #darkModeToggle {
-  background: transparent;
-  border: none;
-  font-size: 24px;
-  cursor: pointer;
-  float: right;
-  margin-top: -30px;
-  margin-right: 20px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  z-index: 1000;
+  background-color: #3498db;
   color: white;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#darkModeToggle:hover {
+  background-color: #2980b9;
 }
 
 body.dark-mode #darkModeToggle {
